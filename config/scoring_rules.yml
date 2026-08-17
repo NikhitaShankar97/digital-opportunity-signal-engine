@@ -1,0 +1,26 @@
+minimum_peer_count: 3
+classification_thresholds:
+  priority: 70
+  investigate: 45
+weights:
+  momentum: 0.40
+  engagement_depth: 0.35
+  traffic_scale: 0.25
+metric_directions:
+  monthly_visits: higher
+  mom_change_pct: higher
+  bounce_rate_pct: lower
+  pages_per_visit: higher
+  avg_visit_duration_seconds: higher
+  organic_search_share_pct: higher
+confidence:
+  required_metrics:
+    - monthly_visits
+    - mom_change_pct
+    - bounce_rate_pct
+    - pages_per_visit
+    - avg_visit_duration_seconds
+  peer_count_target: 3
+  source_reliability: 0.60
+  history_months_observed: 1
+  history_months_target: 3
