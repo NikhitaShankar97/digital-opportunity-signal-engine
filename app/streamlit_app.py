@@ -1154,7 +1154,11 @@ elif page == "AI Research Copilot":
                 "business labels such as momentum score. Describe percentile scores as relative to "
                 "this three-company peer set, not as absolute strength or weakness. Keep the answer "
                 "under 400 words, prioritize decision relevance over generic ideas, and never present "
-                "the result as investment advice."
+                "the result as investment advice. If the user directly asks what to invest in, which "
+                "company to buy, or for an investment recommendation, explicitly state that this tool "
+                "cannot make that selection. You may identify the current digital research priority, "
+                "but clearly distinguish it from an investment recommendation and list the financial, "
+                "valuation, conversion, retention and multi-month evidence still required."
             )
             user_prompt = (
                 f"Task: {task_prompts[ai_task]}\n\n"
