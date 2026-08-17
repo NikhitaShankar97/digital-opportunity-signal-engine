@@ -6,6 +6,12 @@ This proof of concept demonstrates how digital intelligence can support company 
 
 The current peer set contains Rhode, Rare Beauty and Glossier for July 2026. The output prioritizes further research. It is not an investment recommendation.
 
+## Live Application
+
+[Launch the Digital Opportunity Signal Engine](https://digital-opportunity-signal-engine.streamlit.app/)
+
+Explore the peer comparison, adjust scoring assumptions and use the grounded AI Research Copilot to generate evidence-based diligence questions.
+
 ## Business problem
 
 Company screening often relies on inconsistent spreadsheets and analyst judgment. This project creates a transparent workflow that helps a research team:
