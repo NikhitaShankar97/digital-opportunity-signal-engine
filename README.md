@@ -4,7 +4,7 @@
 
 This proof of concept demonstrates how digital intelligence can support company screening for a fictional growth-equity research team. It converts publicly visible Similarweb estimates into validated, peer-relative signals and serves the results through an interactive analyst application.
 
-The current peer set contains Rhode, Rare Beauty and Glossier for July 2026. The output prioritizes further research. It is not an investment recommendation.
+The proof of concept compares three consumer beauty brands with significant digital commerce activity: Rhode, Rare Beauty and Glossier. Their website traffic, engagement and acquisition signals are evaluated for July 2026 to demonstrate how external digital data can help prioritize companies for deeper commercial research. The resulting scores are research signals, not investment recommendations.
 
 ## Live Application
 
